@@ -1,0 +1,62 @@
+/*this is an css doc to practise CSS from PBT session 4 */
+#header-1 {
+    color: blue;
+}
+
+#header-2 {
+    color: chartreuse;
+}
+
+.my-header {
+    border: 5px solid black;
+    font-size: 60px;
+}
+
+/* Using Class instead of html <br> tag */
+.el-in-new-line {
+    display: block;
+}
+
+[name="my-name"] {
+    width: 125px;
+    height: 30px;
+    border: 5px dotted purple;
+}
+
+#my-button:hover {
+    background-color: cornflowerblue;
+}
+
+/* practice opf using attribute selectors - 
+incorrect type doesn't change*/
+input[type="tel"] {
+    background-color: blueviolet;
+}
+
+/* practice opf using attribute selectors - 
+correct type does change*/
+input[type="text"] {
+    background-color: crimson;
+}
+
+#links > a {
+    background-color: burlywood;
+}
+/*
+div:nth-of-type(2) {
+    background:purple;
+}
+*/
+#links > div:nth-of-type(2) {
+    background: yellow;
+}
+/*
+#anchors > div:nth-of-type(2) {
+    background: yellow;
+}
+*/ 
+#footer-header {
+   font-size: 3rem;
+   font-family: Verdana;
+   text-decoration: underline;
+}
